@@ -10,7 +10,18 @@ export default {
       "pageKeys": [
         "v-4af3b0ae",
         "v-0c208636",
-        "v-5b3ce4be"
+        "v-5b3ce4be",
+        "v-63fb3140",
+        "v-f22bfeac"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tag/vue/",
+      "pageKeys": [
+        "v-63fb3140",
+        "v-f22bfeac"
       ]
     }
   },

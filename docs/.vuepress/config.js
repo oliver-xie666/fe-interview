@@ -96,6 +96,7 @@ module.exports = {
         collapsable: true,
         children: [
           { title: "Vue的理解", path: "/vue/vue_understand"},
+          { title: "Vue_test", path: "/vue/test"},
         ]
       }
       // {

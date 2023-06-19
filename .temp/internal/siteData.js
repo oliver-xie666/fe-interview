@@ -16,6 +16,18 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-a35b7fcc",
+      "path": "/"
+    },
+    {
       "title": "手写AJAX",
       "frontmatter": {
         "title": "手写AJAX",
@@ -26,37 +38,6 @@ export const siteData = {
       "relativePath": "handwritejs/ajax.md",
       "key": "v-f5feeb98",
       "path": "/handwritejs/ajax.html"
-    },
-    {
-      "title": "深浅拷贝",
-      "frontmatter": {
-        "title": "深浅拷贝",
-        "author": "oliver",
-        "date": "2023-03-21"
-      },
-      "regularPath": "/handwritejs/deep_clone.html",
-      "relativePath": "handwritejs/deep_clone.md",
-      "key": "v-94c59b40",
-      "path": "/handwritejs/deep_clone.html"
-    },
-    {
-      "title": "script中async跟defer有什么区别",
-      "frontmatter": {
-        "title": "script中async跟defer有什么区别",
-        "author": "oliver",
-        "date": "2023-3-06"
-      },
-      "regularPath": "/html/async_and_defer.html",
-      "relativePath": "html/async_and_defer.md",
-      "key": "v-255d5c94",
-      "path": "/html/async_and_defer.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "<script>元素 中async和defer属性的区别",
-          "slug": "script-元素-中async和defer属性的区别"
-        }
-      ]
     },
     {
       "title": "a标签的默认事件禁用后，如何实现跳转？",
@@ -78,16 +59,83 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
+      "title": "深浅拷贝",
       "frontmatter": {
-        "home": true,
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/"
+        "title": "深浅拷贝",
+        "author": "oliver",
+        "date": "2023-03-21"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-a35b7fcc",
-      "path": "/"
+      "regularPath": "/handwritejs/deep_clone.html",
+      "relativePath": "handwritejs/deep_clone.md",
+      "key": "v-94c59b40",
+      "path": "/handwritejs/deep_clone.html"
+    },
+    {
+      "title": "HTML语义化",
+      "frontmatter": {
+        "title": "HTML语义化",
+        "author": "oliver",
+        "date": "2023-03-06"
+      },
+      "regularPath": "/html/html_semantization.html",
+      "relativePath": "html/html_semantization.md",
+      "key": "v-7b4348ae",
+      "path": "/html/html_semantization.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是HTML语义化",
+          "slug": "什么是html语义化"
+        },
+        {
+          "level": 2,
+          "title": "为什么要关注语义化",
+          "slug": "为什么要关注语义化"
+        }
+      ]
+    },
+    {
+      "title": "script中async跟defer有什么区别",
+      "frontmatter": {
+        "title": "script中async跟defer有什么区别",
+        "author": "oliver",
+        "date": "2023-3-06"
+      },
+      "regularPath": "/html/async_and_defer.html",
+      "relativePath": "html/async_and_defer.md",
+      "key": "v-255d5c94",
+      "path": "/html/async_and_defer.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "<script>元素 中async和defer属性的区别",
+          "slug": "script-元素-中async和defer属性的区别"
+        }
+      ]
+    },
+    {
+      "title": "网站SEO怎么处理",
+      "frontmatter": {
+        "title": "网站SEO怎么处理",
+        "author": "oliver",
+        "date": "2023-03-06"
+      },
+      "regularPath": "/html/seo.html",
+      "relativePath": "html/seo.md",
+      "key": "v-050d3be8",
+      "path": "/html/seo.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "网站SEO怎么处理",
+          "slug": "网站seo怎么处理"
+        },
+        {
+          "level": 3,
+          "title": "SPA单页面应用SEO解决",
+          "slug": "spa单页面应用seo解决"
+        }
+      ]
     },
     {
       "title": "ajax原理是什么？如何实现？",
@@ -118,78 +166,6 @@ export const siteData = {
           "level": 2,
           "title": "手写",
           "slug": "手写"
-        }
-      ]
-    },
-    {
-      "title": "HTML语义化",
-      "frontmatter": {
-        "title": "HTML语义化",
-        "author": "oliver",
-        "date": "2023-03-06"
-      },
-      "regularPath": "/html/html_semantization.html",
-      "relativePath": "html/html_semantization.md",
-      "key": "v-7b4348ae",
-      "path": "/html/html_semantization.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "什么是HTML语义化",
-          "slug": "什么是html语义化"
-        },
-        {
-          "level": 2,
-          "title": "为什么要关注语义化",
-          "slug": "为什么要关注语义化"
-        }
-      ]
-    },
-    {
-      "title": "meta元素都有什么",
-      "frontmatter": {
-        "title": "meta元素都有什么",
-        "author": "oliver",
-        "date": "2023-2-28"
-      },
-      "regularPath": "/html/meta.html",
-      "relativePath": "html/meta.md",
-      "key": "v-032805e4",
-      "path": "/html/meta.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "<meta>：元数据元素",
-          "slug": "meta-元数据元素"
-        },
-        {
-          "level": 3,
-          "title": "meta元素表示那些不能由其它HTML元相关元素标识的元数据信息，不会显示在页面上，但对于搜索引擎是可读的",
-          "slug": "meta元素表示那些不能由其它html元相关元素标识的元数据信息-不会显示在页面上-但对于搜索引擎是可读的"
-        }
-      ]
-    },
-    {
-      "title": "网站SEO怎么处理",
-      "frontmatter": {
-        "title": "网站SEO怎么处理",
-        "author": "oliver",
-        "date": "2023-03-06"
-      },
-      "regularPath": "/html/seo.html",
-      "relativePath": "html/seo.md",
-      "key": "v-050d3be8",
-      "path": "/html/seo.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "网站SEO怎么处理",
-          "slug": "网站seo怎么处理"
-        },
-        {
-          "level": 3,
-          "title": "SPA单页面应用SEO解决",
-          "slug": "spa单页面应用seo解决"
         }
       ]
     },
@@ -256,6 +232,30 @@ export const siteData = {
       ]
     },
     {
+      "title": "meta元素都有什么",
+      "frontmatter": {
+        "title": "meta元素都有什么",
+        "author": "oliver",
+        "date": "2023-2-28"
+      },
+      "regularPath": "/html/meta.html",
+      "relativePath": "html/meta.md",
+      "key": "v-032805e4",
+      "path": "/html/meta.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "<meta>：元数据元素",
+          "slug": "meta-元数据元素"
+        },
+        {
+          "level": 3,
+          "title": "meta元素表示那些不能由其它HTML元相关元素标识的元数据信息，不会显示在页面上，但对于搜索引擎是可读的",
+          "slug": "meta元素表示那些不能由其它html元相关元素标识的元数据信息-不会显示在页面上-但对于搜索引擎是可读的"
+        }
+      ]
+    },
+    {
       "title": "== 和 ===区别，分别在什么情况使用",
       "frontmatter": {
         "title": "== 和 ===区别，分别在什么情况使用",
@@ -298,6 +298,82 @@ export const siteData = {
       ]
     },
     {
+      "title": "说说你对vue的理解",
+      "frontmatter": {
+        "title": "说说你对vue的理解",
+        "author": "oliver",
+        "date": "2023-03-30",
+        "tags": [
+          "js",
+          "vue"
+        ]
+      },
+      "regularPath": "/vue/vue_understand.html",
+      "relativePath": "vue/vue_understand.md",
+      "key": "v-63fb3140",
+      "path": "/vue/vue_understand.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一 vue是什么",
+          "slug": "一-vue是什么"
+        },
+        {
+          "level": 2,
+          "title": "二 vue核心特性",
+          "slug": "二-vue核心特性"
+        },
+        {
+          "level": 3,
+          "title": "数据驱动（MVVM)",
+          "slug": "数据驱动-mvvm"
+        },
+        {
+          "level": 3,
+          "title": "组件化",
+          "slug": "组件化"
+        },
+        {
+          "level": 3,
+          "title": "指令",
+          "slug": "指令"
+        },
+        {
+          "level": 2,
+          "title": "三 与传统开发的区别",
+          "slug": "三-与传统开发的区别"
+        },
+        {
+          "level": 2,
+          "title": "四 Vue和React对比",
+          "slug": "四-vue和react对比"
+        }
+      ]
+    },
+    {
+      "title": "vue test",
+      "frontmatter": {
+        "title": "vue test",
+        "author": "oliver",
+        "date": "2023-03-30",
+        "tags": [
+          "js",
+          "vue"
+        ]
+      },
+      "regularPath": "/vue/test.html",
+      "relativePath": "vue/test.md",
+      "key": "v-f22bfeac",
+      "path": "/vue/test.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue tests",
+          "slug": "vue-tests"
+        }
+      ]
+    },
+    {
       "frontmatter": {
         "layout": "Tags",
         "title": "Tags"
@@ -332,6 +408,15 @@ export const siteData = {
       "regularPath": "/tag/js/",
       "key": "v-e8d86dc8",
       "path": "/tag/js/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vue Tags"
+      },
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
     }
   ],
   "themeConfig": {
@@ -418,6 +503,21 @@ export const siteData = {
           {
             "title": "数组操作",
             "path": "javaScript/array_cof"
+          }
+        ]
+      },
+      {
+        "title": "Vue系列",
+        "path": "/vue/vue_understand",
+        "collapsable": true,
+        "children": [
+          {
+            "title": "Vue的理解",
+            "path": "/vue/vue_understand"
+          },
+          {
+            "title": "Vue_test",
+            "path": "/vue/test"
           }
         ]
       }
